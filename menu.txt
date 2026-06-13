@@ -1,0 +1,322 @@
+web application/stitch/projects/11052431551009103722/screens/ea4f5a7637104ed2ac46349267bebb6f
+# Udupi Gardenia Full Menu Inventory
+
+## BREAKFAST (7:00 am to 12:00 pm)
+- Idly (2): 50
+- Idly (2) Vada (1): 100
+- Vada (1): 50
+- Idly (3): 80
+- Idly (1) Vada (1): 75
+- Khara Bath: 50
+- Kesari Bath: 60
+- Chow Chow Bath: 110
+- Rava Idly: 50
+- Pudeena Rava Idly: 50
+- Sabbakki Rava Idl: 60
+- Vegetable Rava Idly: 60
+- Mini Idly: 80
+- Thatte Idly (1): 40
+- Poori: 90
+- Curd Vada: 60
+- Ghee Podi Tatte Idly: 70
+- Rice Bath: 80
+- Bisibelebath: 80
+- Ghee Pongal: 90
+- Curd Rice: 80
+- Bread Pulav: 80
+- Millet Belebath: 90
+
+## COMBO MINI BREAKFAST (7:00 am to 12:00 pm)
+- Mini Masala, Mini Idly Vada, Mini Khara Bath Kesari Bath, Mini Rice Bath: 150
+
+## VARIETY DOSA (7:00 am to 11:00 pm)
+- Ghee Podi Masala Dosa: 140
+- Ghee Masala Dosa: 130
+- Butter Masala Dosa: 130
+- Plain Dosa: 90
+- Masala Dosa: 100
+- Onion Dosa: 120
+- Set Dosa: 100
+- Rava Dosa: 130
+- Rava Onion Dosa: 140
+- Paper Plain Dosa: 120
+- Paper Masala Dosa: 130
+- Rava Masala Dosa: 130
+- Open Butter Masala Dosa: 120
+- Paper Butter Masala Dosa: 140
+
+## TODAY SPECIAL DOSA (4:00 pm to 11:00 pm)
+- Pizza Dosa: 140
+- Paneer Masala Dosa: 200
+- Mushroom Masala Dosa: 180
+- Palak Masala Dosa: 130
+- Neer Dosa: 110
+- Cheese Masala Dosa: 140
+- Vegetable Dosa: 140
+- Raagi Dosa: 100
+- Udupi Gardenia Special Dosa: 150
+
+## LUNCH (12:00 noon to 3:30 pm)
+- South Indian Meals: 180
+- North Indian Meals: 220
+
+## PAPAD (12:00 noon to 4:00 pm & 7:00 pm to 11:00 pm)
+- Fried Papad: 50
+- Roasted Papad: 50
+- Masala Papad: 80
+
+## CHINESE STARTERS (12:00 pm to 11:00 pm)
+- Gobi Manchurian: 180
+- Gobi 65: 190
+- Gobi Chilly: 200
+- Gobi Papper Fry: 200
+- Baby Corn Manchurian: 200
+- Baby Corn 65: 220
+- Baby Corn Chilly / Papper: 230
+- Mushroom Manchurian: 220
+- Mushroom Chill: 240
+- Mushroom 65: 250
+- Mushroom Paper Day: 240
+- Mushroom Kabab: 250
+- Paneer Manchurian: 240
+- Paneer Chilly: 260
+- Paneer 65: 250
+- Paneer Kabab: 260
+- Paneer Pepper Dry: 260
+- Veg Manchurian: 220
+- Aloo Manchurian: 180
+- French Fries: 140
+- Veg Spring Roll: 240
+- Paneer Kurkure: 260
+- Paneer Chatpat: 260
+- Lemon Panner: 260
+- Crispy Corn: 180
+- Cheese Corn Vada: 220
+- Mix Veg Pakoda: 150
+- Onion Pakoda: 100
+
+## SOUP (12:00 pm to 4:00 pm & 7:00 pm to 11:00 pm)
+- Tomato Soup: 100
+- Sweet Corn Soup: 100
+- Veg Hot & Sure Soup: 120
+- Veg Manchow Soup: 120
+- Veg Clear Soup: 110
+- Veg Lang Pang Soup: 120
+- Veg Spicy Soup: 120
+- Mushroom Soup: 120
+- French Onion Soup: 150
+- Veg Noodles Soup: 140
+- Ginger Soup: 120
+- Lemon Coriander Soup: 100
+
+## SALAD (12:00 pm to 4:00 pm & 7:00 pm to 11:00 pm)
+- Green Salad: 80
+- Cucumber Salad: 80
+- Tomato Salad: 80
+
+## NORTH STARTERS (12:00 pm to 4:00 pm & 7:00 pm to 11:00 pm)
+- Paneer Lollipop: 280
+- Mushroom Lollipop: 260
+- Veg Platter: 280
+- Paneer Finger Fry: 250
+- Harabhara Kabab: 240
+- Mushroom Tikka: 260
+- Paneer Tikka: 280
+- Veg Sheek Kabab: 260
+- Paneer Sheek Kabab: 280
+- Veg Paneer Sheek Kabab: 270
+- Baby Corn Finger Fry: 220
+
+## SPECIAL GRAVY (12:00 noon to 4:00 pm & 7:00 pm to 11:00 pm)
+- Hariyali Kofta: 240
+- Paneer Koftra: 240
+- Veg Kofta: 180
+- Udupi Gardenia Spl. Kofta: 260
+- Kaju Paneer Pasand: 360
+- Paneer Sagvali: 240
+- Veg Patiyala: 260
+- Udupi Gardenia Spl. Gravy: 310
+- Mushroom Tikka Masala: 280
+- Paneer Tikka Masala: 300
+- Navarathna Kurma (sweet): 220
+- Veg Spl. Sizlar: 290
+
+## NORTH INDIA CURRY (12:00 pm to 4:00 pm & 7:00 pm to 11:00 pm)
+- Kaju Masala: 280
+- Paneer Butter Masala: 260
+- Mushroom Masala: 250
+- Veg Kollapori: 220
+- Veg Hydrabadi: 240
+- Malai Kofta: 250
+- Kaju Paneer Masala: 280
+- Paneer Burji: 250
+- Mix Veg Curry: 200
+- Veg Shahi Kurma: 200
+- Dum Aloo Punjabi: 220
+- Dum Aloo Kashmiri: 220
+- Kadai Vegetable: 220
+- Kadia Paneer: 250
+- Kadai Mushroom: 240
+- Kadai Baby Corn: 230
+- Dal Fry: 180
+- Dal Tadka: 190
+- Palak Paneer: 240
+- Plain Palak: 200
+- Shahi Paneer: 230
+- Dal Palak: 190
+- Paneer Kolhapuri: 250
+
+## TANDOORI BREAD (12:00 pm to 4:00 pm & 7:00 pm to 11:00 pm)
+- Puff Roti (Spl.): 55
+- Roti: 40
+- Butter Roti: 50
+- Kulcha: 45
+- Butter Kulcha: 50
+- Naan: 50
+- Butter Naan: 60
+- Paratha: 50
+- Stuffed Paratha: 80
+- Stuffed Kulcha: 80
+- Kashmiri Naan: 110
+- Garlic Naan: 80
+- Pudina Kulcha: 45
+- Aloo Paratha: 80
+- Paneer Paratha: 120
+
+## RAITHA (12:00 noon to 4:00 pm & 7:00 pm to 11:00 pm)
+- Mix Raitha: 80
+- Bhoondhi Raitha: 80
+- Pineapple Raitha: 80
+- Cucumber Raitha: 80
+
+## CHINESE RICE ITEMS (12:00 pm to 11:00 pm)
+- Veg Fried Rice: 180
+- Veg Triple Fried Rice: 220
+- Veg Schezwan Fried Rice: 200
+- Veg Singapori Fried Rice: 200
+- Veg Lemon Fried Rice: 200
+- Paneer Fried Rice: 240
+- Mushroom Fried Rice: 230
+- Kaju Fried Rice: 250
+- Mushroom Schezwan Fried Rice: 240
+- Paneer Schezwan Fried Rice: 240
+- Gobi Fried Rice: 210
+
+## NOODLES (12:00 pm to 11:00 pm)
+- Veg Noodles: 180
+- Veg Schezwan Noodles: 190
+- Veg Singapori Noodles: 210
+- Mushroom Noodles: 240
+- Paneer Noodles: 240
+- Kaju Noodles: 250
+- American Chopsuey: 240
+
+## BIRYANI RICE (12:00 pm to 4:00 pm & 7:00 pm to 11:00 pm)
+- Veg Biryani: 220
+- Mushroom Biryani: 260
+- Paneer Biryani: 270
+- Handi Biryani: 240
+- Kashmiri Biryani: 250
+- Mughlai Biryani: 260
+- Veg Hydrabadi Biryani: 250
+- Kaju Biryani: 280
+- Udupi Gardenia Spl. Biryani: 280
+
+## PULAV RICE (12:00 pm to 4:00 pm & 7:00 pm to 11:00 pm)
+- Veg Pulav: 200
+- Mushroom Pulav: 240
+- Paneer Pulav: 240
+- Baby Corn Pulav: 230
+- Peas Pulav: 200
+- Kaju Pulav: 250
+- Ghee Rice: 220
+- Jeera Rice: 180
+- Steem Rice: 70
+
+## CHATS (4:00 pm to 10:00 pm)
+- Pani Puri: 60
+- Bhelpuri: 70
+- Masala Puri: 60
+- Alu Puri: 70
+- Sev Puri: 70
+- Pav Bhaji: 100
+- Papdi Chats: 80
+- Dahi Puri: 80
+
+## SANDWICH (7:00 am to 11:00 pm)
+- Veg Grill Sandwich: 90
+- Paneer Grill Sandwich: 120
+- Cheese Grill Sandwich: 120
+
+## LASSI / JUICE (7:00 am to 11:00 pm)
+- Lassi Sweet / Salt: 80
+- Rose Lassi: 100
+- Kesar Lassi: 100
+- Mango Lassi: 100
+- Butter Milk: 60
+
+## CHILL SHAKES (7:00 am to 11:00 pm)
+- Pomegranate Milk Shakes: 120
+- Butter Fruit Milk Shakes: 120
+- Banana Milk Shakes: 120
+- Black Current Milk Shakes: 120
+- Cold Coffee: 100
+- Cold Badam Milk: 100
+- Chiko Milk Shakes: 120
+- Apple Milk Shakes: 120
+- Chocolate Milk Shakes: 120
+- Vanilla Milk Shakes: 110
+- Pista Milk Shakes: 120
+- Strawberry Milk Shakes: 120
+- Rose Milk Shakes: 120
+- Mango Milk Shakes: 130
+- Udupi Gardenia Special Milk Shakes: 140
+
+## FRESH FRUIT JUICE (7:00 am to 11:00 pm)
+- Moosambi Juice: 90
+- Moosambi Solid: 140
+- Pineapple: 100
+- Grapes: 100
+- Water Melon: 80
+- Chikku: 100
+- Mango: 100
+- Fresh Lime: 70
+- Mixed Fruit: 120
+- Pappaya: 90
+- Apple: 100
+- Orange Solid: 120
+- Mint Lemon Juice: 80
+- Lime Soda: 70
+- Falooda: 120
+
+## HOT BEVERAGE
+- Coffee: 35
+- Tea: 35
+- Horlicks: 45
+- Badam Milk: 40
+- Black Tea: 35
+- Black Coffee: 35
+- Lemon Tea: 40
+
+## ICE CREAM SCOOP (7:00 am to 11:00 pm)
+- Vanilla: 70
+- Strawberry: 70
+- Black Current: 60
+- Mango: 80
+- Butter Scotch: 80
+- Kesar Pista: 80
+- Chocolate: 80
+- Orange: 80
+- Dry Fruits: 80
+- Pineapple: 80
+
+## SPECIAL ICE CREAM (7:00 am to 11:00 pm)
+- Gud Bud: 170
+- Fruits Salad: 120
+- Fruits Salad With Ice: 160
+- Chocolate Fudg: 150
+- Raja Rani Special: 180
+- Honey Moon Special: 200
+- Udupi Gardenia Special: 220
+- Chocolate Almond Fudge: 180
+- Titanic Special: 200
