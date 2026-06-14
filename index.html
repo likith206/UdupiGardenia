@@ -6,13 +6,168 @@
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet">
 <script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {"on-primary-container": "#501600", "on-primary-fixed-variant": "#812900", "on-tertiary-fixed-variant": "#454745", "on-surface-variant": "#e3bfb2", "on-error-container": "#ffdad6", "secondary-fixed-dim": "#88d982", "surface-bright": "#393939", "surface-container-highest": "#353535", "primary-container": "#fe5900", "primary-fixed": "#ffdbcf", primary: "#E65100", "on-tertiary": "#2f312e", "secondary-fixed": "#a3f69c", "surface-container-high": "#2a2a2a", "tertiary-fixed-dim": "#c6c7c3", "inverse-surface": "#e5e2e1", "error-container": "#93000a", "surface-variant": "#353535", "inverse-on-surface": "#303030", secondary: "#2E7D32", "on-background": "#e5e2e1", "tertiary-container": "#90918e", "on-secondary-fixed-variant": "#005312", "on-surface": "#e5e2e1", surface: "#121212", "surface-container-lowest": "#0e0e0e", tertiary: "#FFB74D", "primary-fixed-dim": "#ffb59b", "secondary-container": "#005b14", "surface-dim": "#131313", error: "#ffb4ab", "tertiary-fixed": "#e2e3df", "on-secondary-container": "#81d27c", background: "#121212", "on-secondary": "#ffffff", "on-error": "#690005", "surface-tint": "#ffb59b", "on-secondary-fixed": "#002204", "outline-variant": "#5a4138", "on-tertiary-fixed": "#1a1c1a", outline: "#aa8a7e", "inverse-primary": "#a93800", "surface-container": "#202020", "surface-container-low": "#1b1c1c", "on-tertiary-container": "#282a28", "on-primary": "#ffffff", "on-primary-fixed": "#380d00"}, borderRadius: {DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px"}, spacing: {"margin-mobile": "16px", "margin-desktop": "40px", "stack-lg": "48px", "stack-md": "24px", base: "8px", "stack-sm": "12px", gutter: "24px", "container-max": "1200px"}, fontFamily: {"body-md": ["Manrope"], "label-sm": ["Manrope"], "headline-lg": ["Libre Caslon Text"], "body-lg": ["Manrope"], "label-md": ["Manrope"], "headline-xl": ["Libre Caslon Text"], "headline-md": ["Libre Caslon Text"], "headline-lg-mobile": ["Libre Caslon Text"], headline: ["Libre Caslon Text"], display: ["Libre Caslon Text"], body: ["Manrope"], label: ["Manrope"]}, fontSize: {"body-md": ["16px", {lineHeight: "24px", fontWeight: "400"}], "label-sm": ["12px", {lineHeight: "16px", letterSpacing: "0.05em", fontWeight: "700"}], "headline-lg": ["32px", {lineHeight: "40px", fontWeight: "700"}], "body-lg": ["18px", {lineHeight: "28px", fontWeight: "400"}], "label-md": ["14px", {lineHeight: "20px", letterSpacing: "0.02em", fontWeight: "600"}], "headline-xl": ["48px", {lineHeight: "56px", fontWeight: "700"}], "headline-md": ["24px", {lineHeight: "32px", fontWeight: "600"}], "headline-lg-mobile": ["28px", {lineHeight: "36px", fontWeight: "700"}]}}}};</script>
-<link rel="stylesheet" href="style.css?v=2">
+<link rel="stylesheet" href="style.css?v=5">
 </head>
 <body class="bg-background text-on-background font-body-md text-body-md antialiased pb-20 md:pb-0">
 
 <!-- Loading Animation -->
 <div id="loader" class="loader-container">
-    <div class="loader-circle"></div>
+    <div class="loader-wrapper flex flex-col items-center justify-center w-full">
+        <!-- Coffee Pour Stage -->
+        <div class="coffee-pour-container">
+            <svg viewBox="0 0 200 200" class="coffee-pour-svg">
+                <defs>
+                    <!-- Brass gradient for metal cups -->
+                    <linearGradient id="brassGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#ffe994" />
+                        <stop offset="30%" stop-color="#d4af37" />
+                        <stop offset="70%" stop-color="#a37f14" />
+                        <stop offset="100%" stop-color="#5c4500" />
+                    </linearGradient>
+                    <!-- Metallic highlights -->
+                    <linearGradient id="metalHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="rgba(255,255,255,0.1)" />
+                        <stop offset="50%" stop-color="rgba(255,255,255,0.6)" />
+                        <stop offset="100%" stop-color="rgba(0,0,0,0.3)" />
+                    </linearGradient>
+                    <!-- Coffee liquid gradient -->
+                    <linearGradient id="coffeeStream" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#6f3d1b" />
+                        <stop offset="50%" stop-color="#4e2506" />
+                        <stop offset="100%" stop-color="#301500" />
+                    </linearGradient>
+                    <!-- Coffee foam gradient -->
+                    <radialGradient id="coffeeFoam" cx="50%" cy="50%" r="50%">
+                        <stop offset="0%" stop-color="#e8cfa6" />
+                        <stop offset="70%" stop-color="#c99f67" />
+                        <stop offset="100%" stop-color="#5c2e00" />
+                    </radialGradient>
+                    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                        <feGaussianBlur stdDeviation="3" result="blur" />
+                        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                    </filter>
+                </defs>
+                
+                <!-- Dabarah (Bottom Bowl) -->
+                <g transform="translate(80, 150)">
+                    <!-- Shadow -->
+                    <ellipse cx="0" cy="20" rx="48" ry="8" fill="rgba(0,0,0,0.45)" filter="url(#glow)" />
+                    
+                    <!-- Outer body of Dabarah -->
+                    <path d="M -48,0 C -48,20 -32,26 0,26 C 32,26 48,20 48,0 Z" fill="url(#brassGradient)" stroke="#8e6a00" stroke-width="0.5" />
+                    <!-- Rim of Dabarah -->
+                    <ellipse cx="0" cy="0" rx="48" ry="10" fill="url(#brassGradient)" stroke="#8e6a00" stroke-width="0.5" />
+                    <!-- Inner shadow of bowl -->
+                    <ellipse cx="0" cy="0" rx="44" ry="8.5" fill="#3a2700" />
+                    
+                    <!-- Coffee Foam in Dabarah (Rising/Swirling) -->
+                    <ellipse cx="0" cy="0" rx="43" ry="8" fill="url(#coffeeFoam)" class="foam-surface" />
+                    
+                    <!-- Ripples inside Dabarah -->
+                    <ellipse cx="0" cy="0" rx="34" ry="6.5" fill="none" stroke="rgba(255, 240, 200, 0.5)" stroke-width="1.2" class="ripple ripple-1" />
+                    <ellipse cx="0" cy="0" rx="34" ry="6.5" fill="none" stroke="rgba(255, 240, 200, 0.3)" stroke-width="0.8" class="ripple ripple-2" />
+                    
+                    <!-- Small bubbles on foam -->
+                    <circle cx="-12" cy="-2" r="1.5" fill="rgba(255,255,255,0.7)" />
+                    <circle cx="-18" cy="1" r="1" fill="rgba(255,255,255,0.7)" />
+                    <circle cx="16" cy="-2" r="2.5" fill="rgba(255,255,255,0.5)" />
+                    <circle cx="22" cy="2" r="1.2" fill="rgba(255,255,255,0.6)" />
+                    <circle cx="6" cy="3" r="2" fill="rgba(255,255,255,0.6)" />
+                    <circle cx="-28" cy="-1" r="1.5" fill="rgba(255,255,255,0.4)" />
+                </g>
+                
+                <!-- The Pouring Coffee Stream with SMIL path & width morphing (curves under gravity) -->
+                <path d="M 78,110 Q 79,130 80,150" fill="none" stroke="url(#coffeeStream)" stroke-linecap="round">
+                    <animate 
+                        attributeName="d" 
+                        dur="4s" 
+                        repeatCount="indefinite"
+                        values="M 78,110 Q 79,130 80,150; 
+                                M 125,58 Q 80,80 80,150; 
+                                M 78,110 Q 79,130 80,150" 
+                        keyTimes="0; 0.5; 1"
+                        keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"
+                        calcMode="spline" />
+                    <animate 
+                        attributeName="stroke-width" 
+                        dur="4s" 
+                        repeatCount="indefinite"
+                        values="7; 4.5; 7" 
+                        keyTimes="0; 0.5; 1"
+                        keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"
+                        calcMode="spline" />
+                </path>
+                
+                <path d="M 78,110 Q 79,130 80,150" fill="none" stroke="#e8cfa6" stroke-linecap="round" stroke-dasharray="12 24" class="coffee-flow-highlight">
+                    <animate 
+                        attributeName="d" 
+                        dur="4s" 
+                        repeatCount="indefinite"
+                        values="M 78,110 Q 79,130 80,150; 
+                                M 125,58 Q 80,80 80,150; 
+                                M 78,110 Q 79,130 80,150" 
+                        keyTimes="0; 0.5; 1"
+                        keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"
+                        calcMode="spline" />
+                    <animate 
+                        attributeName="stroke-width" 
+                        dur="4s" 
+                        repeatCount="indefinite"
+                        values="3; 1.8; 3" 
+                        keyTimes="0; 0.5; 1"
+                        keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"
+                        calcMode="spline" />
+                </path>
+                
+                <path d="M 77,110 Q 78,130 79,150" fill="none" stroke="#ffe7c4" stroke-linecap="round" stroke-dasharray="6 30" class="coffee-flow-sparkle">
+                    <animate 
+                        attributeName="d" 
+                        dur="4s" 
+                        repeatCount="indefinite"
+                        values="M 77,110 Q 78,130 79,150; 
+                                M 124,58 Q 79,80 79,150; 
+                                M 77,110 Q 78,130 79,150" 
+                        keyTimes="0; 0.5; 1"
+                        keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"
+                        calcMode="spline" />
+                    <animate 
+                        attributeName="stroke-width" 
+                        dur="4s" 
+                        repeatCount="indefinite"
+                        values="1.2; 0.8; 1.2" 
+                        keyTimes="0; 0.5; 1"
+                        keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"
+                        calcMode="spline" />
+                </path>
+
+                <!-- Splash droplets centered at (80, 150) -->
+                <circle cx="80" cy="150" r="2" class="droplet droplet-1" />
+                <circle cx="80" cy="150" r="2.5" class="droplet droplet-2" />
+                <circle cx="80" cy="150" r="1.5" class="droplet droplet-3" />
+
+                <!-- Tumbler (Top Pouring Cup) -->
+                <g class="tumbler-group" transform="translate(95, 105) rotate(-15)">
+                    <path d="M -18,0 L -12,40 C -12,43 12,43 12,40 L 18,0 Z" fill="url(#brassGradient)" stroke="#8e6a00" stroke-width="0.5" />
+                    <path d="M -18,0 L -12,40 C -12,43 12,43 12,40 L 18,0 Z" fill="url(#metalHighlight)" opacity="0.6" />
+                    <ellipse cx="0" cy="0" rx="18" ry="5" fill="url(#brassGradient)" stroke="#8e6a00" stroke-width="0.5" />
+                    <ellipse cx="0" cy="0" rx="16" ry="4" fill="#301500" />
+                    <path d="M -16,0 C -10,3 10,3 16,0 C 12,1.5 -12,1.5 -16,0" fill="#e8cfa6" />
+                </g>
+                
+                <!-- Steam Rising from Dabarah -->
+                <g transform="translate(80, 140)" class="steam-container-svg">
+                    <path d="M -15,-10 Q -25,-30 -10,-50 T -20,-80" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2" stroke-linecap="round" class="steam-line path-1" />
+                    <path d="M 5,-10 Q -5,-30 10,-50 T -5,-80" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1.5" stroke-linecap="round" class="steam-line path-2" />
+                    <path d="M 20,-10 Q 10,-35 25,-60 T 15,-90" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="2.5" stroke-linecap="round" class="steam-line path-3" />
+                </g>
+            </svg>
+        </div>
+        
+        <div class="loader-text-container mt-4 flex flex-col items-center">
+            <span class="loader-title text-primary font-headline-md tracking-wider uppercase">Udupi Gardenia</span>
+            <span class="loader-subtitle text-on-surface-variant/70 text-label-sm font-label-sm mt-1 animate-pulse">Brewing delicious flavors...</span>
+        </div>
+    </div>
 </div>
 
 <!-- TopNavBar -->
@@ -43,18 +198,19 @@
 <!-- Hero Section -->
 <section class="relative pt-20 min-h-[100vh] md:min-h-[819px] flex items-center justify-center overflow-hidden" id="home">
 <div class="absolute inset-0 w-full h-full bg-[#121212]">
-<img alt="Idli and Vada" class="slideshow-img" src="hero_bg_1.png">
-<img alt="South Indian Thali" class="slideshow-img" src="hero_bg_2.png">
-<img alt="Filter Coffee" class="slideshow-img" src="hero_bg_3.png">
-<img alt="Masala Dosa" class="slideshow-img" src="hero_bg_4.png">
-<img alt="Paneer Butter Masala" class="slideshow-img" src="hero_bg_5.png">
-<img alt="Grand Indian Veg Thali" class="slideshow-img" src="hero_bg_6.png">
-<img alt="Gobi Manchurian" class="slideshow-img" src="hero_bg_7.png">
-<img alt="Filter Coffee Pouring" class="slideshow-img" src="hero_bg_8.png">
-<img alt="Soft Idlis" class="slideshow-img" src="hero_bg_9.png">
-<img alt="Crispy Medu Vada" class="slideshow-img" src="hero_bg_10.png">
+<div class="absolute inset-0 w-full h-full bg-black mix-blend-screen z-0">
+<img alt="Anti-Gravity Idli Vada" class="slideshow-img" src="antigravity_food.png">
+<img alt="Anti-Gravity Masala Dosa" class="slideshow-img" src="antigravity_bg_2.png">
+<img alt="Anti-Gravity Paneer Masala" class="slideshow-img" src="antigravity_bg_3.png">
+<img alt="Anti-Gravity Veg Biryani" class="slideshow-img" src="antigravity_bg_4.png">
+<img alt="Anti-Gravity Image 5" class="slideshow-img" src="antigravity_bg_5.png">
+<img alt="Anti-Gravity Image 6" class="slideshow-img" src="antigravity_bg_6.png">
+<img alt="Anti-Gravity Image 7" class="slideshow-img" src="antigravity_bg_7.png">
+<img alt="Anti-Gravity Image 8" class="slideshow-img" src="antigravity_bg_8.png">
+</div>
 <div class="absolute inset-0 bg-black/50 z-10"></div>
 </div>
+
 <div class="relative z-20 text-center px-4 md:px-margin-desktop max-w-4xl mx-auto flex flex-col items-center gap-6 md:gap-stack-md pt-12 md:pt-16 fade-in visible w-full">
 <h1 class="text-4xl md:text-5xl lg:text-headline-xl font-headline-xl text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] leading-tight px-2">
                 Authentic Flavors,<br class="hidden md:block"> Tailored For Every Occasion

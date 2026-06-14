@@ -1547,7 +1547,8 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Accordion Container
             const accordionItem = document.createElement('div');
-            accordionItem.className = 'w-full border-b border-outline-variant/30 accordion-container';
+            accordionItem.className = 'w-full border-b border-outline-variant/30 accordion-container cascade-up';
+            accordionItem.style.animationDelay = `${Math.min(0.05 * catIndex, 1.0)}s`;
             accordionItem.dataset.category = catId;
             
             // Accordion Header (Button)
@@ -1771,6 +1772,24 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
         lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+        
+        // Anti-Gravity Scroll Parallax
+        const antigravityWrapper = document.getElementById('hero-antigravity-wrapper');
+        const heroSection = document.getElementById('home');
+        if (antigravityWrapper && heroSection) {
+            let heroHeight = heroSection.offsetHeight;
+            if (scrollTop <= heroHeight) {
+                let progress = scrollTop / heroHeight;
+                if (progress > 1) progress = 1;
+                
+                // Parallax shift downwards and slight rotation
+                const yOffset = -50 + (progress * 40); 
+                const rotate = progress * 20; 
+                const scale = 1 + (progress * 0.2);
+                
+                antigravityWrapper.style.transform = `translate(-50%, ${yOffset}%) rotate(${rotate}deg) scale(${scale})`;
+            }
+        }
     }, { passive: true });
 
     // Back to top click
@@ -1810,4 +1829,30 @@ document.addEventListener('DOMContentLoaded', () => {
         const heroFade = document.querySelector('#home .fade-in');
         if(heroFade) heroFade.classList.add('visible');
     }, 100);
+
+    // Smooth Page Transition to Menu
+    document.querySelectorAll('a[href="menu.html"]').forEach(link => {
+        link.addEventListener('click', function(e) {
+            // Check if already on menu.html
+            if (window.location.pathname.endsWith('menu.html')) return;
+            
+            e.preventDefault();
+            const targetUrl = this.href;
+            
+            // Apply scale back effect to sections, avoid scaling body which breaks fixed elements
+            document.querySelectorAll('section, footer, main').forEach(el => {
+                el.classList.add('page-transition-out');
+            });
+            // Smoothly fade out fixed elements
+            document.querySelectorAll('header, #bottom-nav, .fixed').forEach(el => {
+                el.style.transition = 'opacity 0.4s ease';
+                el.style.opacity = '0';
+            });
+            
+            // Wait for animation to finish before navigating
+            setTimeout(() => {
+                window.location.href = targetUrl;
+            }, 500);
+        });
+    });
 });
